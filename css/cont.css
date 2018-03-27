@@ -8,6 +8,9 @@ header {
      -moz-box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
      box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
 }
+body {
+     overflow-x: hidden;
+}
 
 main {
      -webkit-box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
@@ -55,6 +58,24 @@ main {
 
 #bacCont {
      width: 70%;
+}
+
+#about {
+     animation-duration: 1.5s;
+     animation-name: slidein2;
+     position: relative;
+}
+
+@keyframes slidein2 {
+  from {
+    opacity: 0;
+    top: -100px;
+  }
+
+  to {
+    opacity: 1;
+    top: 0;
+  }
 }
 
 header h2 {
@@ -120,7 +141,26 @@ header h2 {
      border-radius: 20px;
      width: 30%;
      margin: 20px;
+     animation-duration: 1.5s;
+     animation-name: slidein;
+     position: relative;
+     -webkit-box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
+     -moz-box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
+     box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
 }
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+    left: 100px;
+  }
+
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
+
 
 #form p {
     font-size: 14pt;
