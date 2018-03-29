@@ -5,7 +5,7 @@ window.onload = function() {
 
         $('.float').each(
             function() {
-                $(this).css({"background-position": (x + y) + 'px'});
+                $(this).css({"right": (x + y) + 'px'});
             }
         )
 
