@@ -25,8 +25,3 @@ $(document).ready(function () {
         }
     });
 });
-
-function aColor() {
-    $('a').css({ "border": 3 + 'px' + 'solid' + 'grey'});
-    console.log('hola');
-}
