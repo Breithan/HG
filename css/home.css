@@ -1,0 +1,334 @@
+/* Estilos para parallax */
+#divSec1, #divSec4, #divSec6 {
+    max-width: 100%;
+    min-width: 700px;
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 1000px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+
+#divSec1 {
+    background-image: url('../img/bg1.gif');
+}
+
+#divSec4 {
+    background-image: url('../img/bg2.gif');
+}
+
+#divSec6 {
+    background-image: url('../img/bg3.jpg');
+    background-size: 150%;
+}
+
+#divSec1 .postSec, #divSec4 .postSec,  #divSec6 .postSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para captura 2 */
+#divSec2 {
+    background-color: #fff;
+    background: rgb(255,255,255);
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    max-width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divSec2 h2 {
+    padding-bottom: 35px;
+}
+
+#divSec2 p {
+    font-size: 12pt;
+    text-align: center;
+}
+
+.imgCont {
+    width: 50%;
+    max-width: 50%;
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.imgCont div {
+    width: 500px;
+    height: 250px;
+    max-width: 90%;
+    max-height: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
+    box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
+}
+
+#imgCap1 {
+    background-image: url('../img/imgCapturaVG2.png');
+    background-size: 105% 105%;
+}
+
+#imgCap2 {
+    background-image: url('../img/imgCapturaVG3.png');
+    background-size: 105% 105%;
+}
+
+/* Estilos para captura 3 */
+#divSec3 {
+    background-color: #ccc;
+    background: rgb(204,204,204);
+    width: 100%;
+    height: 50vh;
+    min-height: 330px;
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divSec3 h2 {
+    padding-bottom: 35px;
+}
+
+#divSec3 p {
+    font-size: 12pt;
+    text-align: center;
+}
+
+#divSec3 #parSec3 {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+}
+
+/* Estilos para captura 4 */
+#divSec4 h2 {
+    padding-bottom: 25px;
+    color: rgb(222,222,222);
+}
+
+#divSec4 p {
+    letter-spacing: 3px;
+    font-size: 14pt;
+    text-align: center;
+    color: rgb(222,222,222);
+}
+
+#divSec4 a {
+    background-color: rgba(32,32,32,0);
+    margin-top: 100px;
+    padding-left: 10px;
+    font-size: 20pt;
+    letter-spacing: 10px;
+    border-radius: 3px;
+    border-bottom: 3px solid rgba(222,222,222,0);
+}
+
+#divSec4 a:hover {
+    border-bottom: 3px solid rgb(222,222,222);
+}
+
+/* Estilos para captura 5 */
+#divSec5 {
+    background-color: #fff;
+    background: rgb(255,255,255);
+    width: 100%;
+    height: 50vh;
+    min-height: 330px;
+    max-height: 500px;
+}
+
+.pnlContai {
+    width: 50%;
+    height: 100%;
+    max-width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#FroCon1 {
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+}
+
+#FroCon1 p {
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+
+#FroCon1 a {
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid rgba(32,32,32,0);
+    border-radius: 1px;
+}
+
+#FroCon1 a:hover {
+    border-bottom: 1px solid rgb(32,32,32);
+    -webkit-transition: All .5s ease;
+    -moz-transition: All .5s ease;
+    -o-transition: All .5s ease;
+    transition: All .5s ease;
+}
+
+#FroCon1 a:link {
+    color: #22656D;
+}
+
+#FroCon1 a:visited {
+    color: rgb(0,0,0);
+}
+
+#BacCon1 {
+    background-color: rgba(32,32,32,.25);
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+}
+
+#BacCon1 p {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#BacCon1 a {
+    color: rgb(0,0,0);
+    margin-top: 50px;
+    font-size: 20pt;
+    letter-spacing: 10px;
+    border-radius: 3px;
+    border-bottom: 3px solid rgba(0,0,0,0);
+}
+
+#BacCon1 a:hover {
+    border-bottom: 3px solid rgb(0,0,0);
+}
+
+#BacCon1 a::after {
+    content: "(Solo Windows 10)";
+    font-family: "SpaceE", "SpaceN", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8pt;
+    font-weight: normal;
+    letter-spacing: 2px;
+    position: absolute;
+    top: -20px;
+    left: 140px;
+}
+
+/* Estilos para captura 6 */
+#posSec6 #froCon2,  #posSec6 #bacCon2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#posSec6 #froCon2 .contIN,  #posSec6 #bacCon2 .contIN {
+    width: 75%;
+}
+
+#posSec6 h2 {
+    margin-bottom: 50px;
+    color: rgb(222, 222, 222);
+}
+
+#posSec6 p {
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: rgb(222, 222, 222);
+}
+
+#bacCon2 .contIN {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+    width: 30%;
+    -webkit-box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
+    box-shadow: 4px 4px 15px 1px rgba(0,0,0,0.5);
+}
+
+#bacCon2 p {
+    font-size: 14pt;
+    text-align: justify;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#bacCon2 input,  #bacCon2 textarea {
+    width: 93.5%;
+    background-color: rgba(0,0,0,0);
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    padding: 10px;
+    border: 3px solid rgb(222,222,222);
+    color: rgb(222,222,222);
+    border-radius: 10px;
+    font-family: "SpaceE", "SpaceN", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    -webkit-transition: All 0.25s ease;
+    -moz-transition: All 0.25s ease;
+    -o-transition: All 0.25s ease;
+    transition: All 0.25s ease;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+#bacCon2 .input:hover, #bacCon2 textarea:hover {
+    border: 3px solid rgb(85, 85, 196);
+    -webkit-transition: All .25s ease;
+    -moz-transition: All .25s ease;
+    -o-transition: All .25s ease;
+    transition: All .25s ease;
+}
+
+#bacCon2 .input:focus, #bacCon2 textarea:focus, #bacCon2 .button:focus {
+    outline: 0px;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: All .25s ease;
+    -moz-transition: All .25s ease;
+    -o-transition: All .25s ease;
+    transition: All .25s ease;
+}
+
+#bacCon2 .button {
+    width: 25%;
+}
+
+#bacCon2 .button:hover {
+    border: 3px solid rgb(85, 85, 196);
+    width: 50%;
+    -webkit-transition: All .25s ease;
+    -moz-transition: All .25s ease;
+    -o-transition: All .25s ease;
+    transition: All .25s ease;
+}
